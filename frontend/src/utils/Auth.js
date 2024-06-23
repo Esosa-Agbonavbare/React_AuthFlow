@@ -25,6 +25,7 @@ export function tokenLoader() {
     return getAuthToken();
 }
 
+//for route protection
 export function checkAuthLoader() {
     const token = getAuthToken();
 
